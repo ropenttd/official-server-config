@@ -5,7 +5,7 @@ This repository contains the configuration files used to instantiate Server 1 an
 
 ### (server1.cfg & server3.cfg)
 
-These files have been pasted verbatim from their Kubernetes configmap counterparts. You can use them as is, but be sure to override any mentions of `redacted` (namely passwords and the network_id) with secure replacements, and also change the hostname.
+These files have been pasted verbatim from their Kubernetes configmap counterparts. You can use them as is, but be sure to override any mentions of `redacted` (namely passwords and the network_id) with secure replacements, and also change the hostname. **Banned client IP addresses are not included for privacy reasons.**
 
 ### Kubernetes manifests
 
